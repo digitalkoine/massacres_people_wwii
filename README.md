@@ -12,14 +12,19 @@ Heatmaps to highlight aggregate male and female victim concentrations.
 Interactive timeline to explore the chronological progression of the massacres (1943–1945).
 Legend and filter panel always accessible for intuitive navigation.
 Introductory screen with a guided “Start” button to launch the map.
+
+
 📦 How to Use
 Open the file mappa_stragi_finale_tutto_funzionante.html in any modern web browser (Chrome or Firefox recommended). No installation or external database is required: the map is fully self-contained and offline-ready (only uses CDN-hosted libraries).
+
 
 🛠️ Libraries Used
 Leaflet.js – for map rendering and interactivity
 Leaflet.heat – for generating heatmaps
 Leaflet.timeline.slider – for temporal navigation
 OpenStreetMap tiles – for the base map
+
+
 📌 Notes
 This file can be published directly on GitHub Pages to make the map publicly accessible.
 All geographical and temporal data is embedded directly in the HTML file (no external JSON or API calls required).
